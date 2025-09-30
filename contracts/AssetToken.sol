@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/utils/Counters.sol";
 
 /**
  * @title AssetToken
- * @author Your Name/Company
+ * @author Hassan Ali
  * @notice An ERC1155 contract to represent unique AI datasets and models as tokens.
  * @dev This contract uses AccessControl for role-based permissions.
  * - DEFAULT_ADMIN_ROLE: Can grant/revoke roles.

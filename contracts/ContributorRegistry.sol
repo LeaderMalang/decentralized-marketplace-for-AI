@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/utils/Context.sol";
 
 /**
  * @title ContributorRegistry
- * @author Your Name/Company
+ * @author Hassan Ali
  * @notice Manages contributor profiles (wallet ↔ profile) and their roles.
  * @dev This contract uses AccessControl for administrative functions and is Pausable.
  * - DEFAULT_ADMIN_ROLE: The ultimate authority, can grant/revoke other admin roles.

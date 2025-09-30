@@ -35,7 +35,7 @@ Using a combination of **smart contracts** and **off-chain infrastructure**, the
 ### B) Smart Contracts (EVM)
 - [x] B1. ContributorRegistry — wallet↔profile; roles; AccessControl, Pausable  
 - [x] B2. AssetToken (ERC-1155) — datasets/models, per-ID URIs, license IDs  
-- [ ] B3. ProvenanceGraph — addEdge(assetId,target,weightBps); finalize()  
+- [x] B3. ProvenanceGraph — addEdge(assetId,target,weightBps); finalize()  
 - [ ] B4. RoyaltySplitFactory (+Splits) — PaymentSplitter clones or 0xSplits  
 - [ ] B5. UsageReceiptVerifier — EIP-712 receipts; Permit2 USDC pull or escrow  
 - [ ] B6. Escrow & Dispute — open/hold/resolve with roles and time-locks  
