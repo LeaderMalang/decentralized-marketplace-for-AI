@@ -40,11 +40,12 @@ const AISmartContractsModule = buildModule("AISmartContracts", (m) => {
   // // Deploy ProvenanceGraph Contract (after ContributorRegistry)
   const ProvenanceGraph = m.contract("ProvenanceGraph", [AssetToken,ContributorRegistry], { id: "ProvenanceGraph", after: [ContributorRegistry] });
 
+  // // Deploy ProvenanceGraph Contract (after ContributorRegistry)
+  const RoyaltySplitFactory = m.contract("RoyaltySplitFactory", [ProvenanceGraph], { id: "RoyaltySplitFactory", after: [ProvenanceGraph] });
+
  
 
-  return { AssetToken,ContributorRegistry,ProvenanceGraph
-    
-    };
+  return { AssetToken,ContributorRegistry,ProvenanceGraph,RoyaltySplitFactory};
 });
 
 module.exports = AISmartContractsModule;
