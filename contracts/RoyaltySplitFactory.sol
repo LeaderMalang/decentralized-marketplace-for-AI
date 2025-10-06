@@ -6,7 +6,7 @@ import "./interfaces/IProvenanceGraph.sol";
 
 /**
  * @title RoyaltySplitFactory
- * @author Your Name
+ * @author Hassan Ali
  * @notice A factory contract that deploys a unique PaymentSplitter for each finalized asset.
  * This contract reads provenance data to create on-chain royalty distribution mechanisms.
  */
