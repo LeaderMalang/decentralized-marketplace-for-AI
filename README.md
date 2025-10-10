@@ -38,7 +38,7 @@ Using a combination of **smart contracts** and **off-chain infrastructure**, the
 - [x] B3. ProvenanceGraph — addEdge(assetId,target,weightBps); finalize()  
 - [x] B4. RoyaltySplitFactory (+Splits) — PaymentSplitter clones or 0xSplits  
 - [x] B5. UsageReceiptVerifier — EIP-712 receipts; Permit2 USDC pull or escrow  
-- [ ] B6. Escrow & Dispute — open/hold/resolve with roles and time-locks  
+- [x] B6. Escrow & Dispute — open/hold/resolve with roles and time-locks  
 - [ ] B7. FeeTreasury — protocol fee (bps) to multisig  
 - [ ] B8. RegistryRouter (views) — read asset→split/license/parents; contributor→roles  
 - [ ] B9. Upgradability & Admin — core non-upgradeable; Safe multisig  
