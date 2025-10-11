@@ -2,18 +2,24 @@
 pragma solidity ^0.8.20;
 
 /**
- * @title IAssetToken
- * @dev Interface for the AssetToken contract.
- * Used by other contracts to interact with asset tokens without needing the full ABI.
+ * @title IAssetToken Interface
+ * @notice Defines the external functions for the AssetToken contract needed by the RegistryRouter.
  */
 interface IAssetToken {
     /**
-     * @dev Returns the owner of the `_tokenId` token.
+     * @notice Returns the URI for a specific asset's metadata.
      */
-    function ownerOf(uint256 _tokenId) external view returns (address owner);
+    function uri(uint256 _assetId) external view returns (string memory);
 
     /**
-     * @dev Returns true if the `_tokenId` exists.
+     * @notice Returns the license identifier for a specific asset.
      */
-    function exists(uint256 _tokenId) external view returns (bool);
+    function licenseId(uint256 _assetId) external view returns (uint256);
+
+    /**
+     * @notice Returns the single owner of a specific asset.
+     * @dev This is a custom function for router compatibility.
+     */
+    function ownerOf(uint256 _assetId) external view returns (address);
 }
+

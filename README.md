@@ -39,13 +39,13 @@ Using a combination of **smart contracts** and **off-chain infrastructure**, the
 - [x] B4. RoyaltySplitFactory (+Splits) — PaymentSplitter clones or 0xSplits  
 - [x] B5. UsageReceiptVerifier — EIP-712 receipts; Permit2 USDC pull or escrow  
 - [x] B6. Escrow & Dispute — open/hold/resolve with roles and time-locks  
-- [ ] B7. FeeTreasury — protocol fee (bps) to multisig  
-- [ ] B8. RegistryRouter (views) — read asset→split/license/parents; contributor→roles  
-- [ ] B9. Upgradability & Admin — core non-upgradeable; Safe multisig  
+- [x] B7. FeeTreasury — protocol fee (bps) to multisig  
+- [x] B8. RegistryRouter (views) — read asset→split/license/parents; contributor→roles  
+- [x] B9. Upgradability & Admin — core non-upgradeable; Safe multisig  
 - [x] B10. Hardhat Monorepo — tests (≥90% cov), deploy scripts  
 - [x] AssetToken.sol tests complete  
 - [x] ContributorRegistry.sol tests complete  
-- [ ] Security analysis (Slither/Echidna) pending  
+- [x] Security analysis (Slither/Echidna) pending  
 
 ### C) AI Factory Gateway
 - [ ] C1. Auth & rate-limit (API keys/OAuth, throttling)  

@@ -1,12 +1,19 @@
 {
   "KhacToken": {
-    "usdcAddress": "0xf3C3351D6Bd0098EEb33ca8f830FAf2a141Ea2E1",
-    "defaultAdmin":"0xf3C3351D6Bd0098EEb33ca8f830FAf2a141Ea2E1",
-    "roleAdmin":"0xf3C3351D6Bd0098EEb33ca8f830FAf2a141Ea2E1",
-    "pauser":"0xf3C3351D6Bd0098EEb33ca8f830FAf2a141Ea2E1",
+    "usdcAddress": "0x51C2E4c6Bd7202FD1943E9bA6711735dAdBcD52E",
+    "defaultAdmin":"0x51C2E4c6Bd7202FD1943E9bA6711735dAdBcD52E",
+    "roleAdmin":"0x51C2E4c6Bd7202FD1943E9bA6711735dAdBcD52E",
+    "arbiter":"0x51C2E4c6Bd7202FD1943E9bA6711735dAdBcD52E",
+    "pauser":"0x51C2E4c6Bd7202FD1943E9bA6711735dAdBcD52E",
     "minter":"0xf3C3351D6Bd0098EEb33ca8f830FAf2a141Ea2E1",
-    "uriSetter":"0xf3C3351D6Bd0098EEb33ca8f830FAf2a141Ea2E1",
-    "initialURI":"https://docs.google.com/document/d/18hqr4eGQZKdazEn-IPyer5fZbdxf4eOaCrrACOnWLJc/edit?tab=t.0"
+    "verifier":"0xf3C3351D6Bd0098EEb33ca8f830FAf2a141Ea2E1",
+    "uriSetter":"0x51C2E4c6Bd7202FD1943E9bA6711735dAdBcD52E",
+    "initialURI":"https://docs.google.com/document/d/18hqr4eGQZKdazEn-IPyer5fZbdxf4eOaCrrACOnWLJc/edit?tab=t.0",
+    "treasuryMultisig":"0x51C2E4c6Bd7202FD1943E9bA6711735dAdBcD52E",
+    "initialFeeBps":250,
+    "disputeWindowSeconds":259200,
+    "eip712Name":"",
+    "eip712Version":"1"
 
   }
 }
